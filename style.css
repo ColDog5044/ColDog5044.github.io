@@ -10,7 +10,8 @@ body {
   }
 
 main {
-    margin: 20px;
+    margin: 300px;
+    padding: 24px;
   }
 .topnav {
     background-color: #333;
