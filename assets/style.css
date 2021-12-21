@@ -49,8 +49,7 @@ li {
 }
 
 main {
-  margin: 5% 5%;
-  padding: 24px;
+  margin: 5% 10%;
   line-height: 1.6;
 }
 
@@ -59,7 +58,7 @@ main {
   overflow: hidden;
 }
 
-.topnav .rightlinks {
+.topnav a.rightlinks {
   float: right;
 }
 
@@ -119,8 +118,15 @@ This class makes the topnav look good on small screens (display the links vertic
 
 .content {
   background-color: #ddd;
-  padding: 5px 60px;
 }
+
+@media screen and (max-width: 380px) {
+  main {
+    margin: 0% 5%;
+  }
+}
+
+
 
 .bottombar {
   background-color: #333;
