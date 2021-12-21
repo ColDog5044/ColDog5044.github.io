@@ -11,31 +11,32 @@
 
     <meta property="og:title" content="ColDog Studios - Home">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://coldogstudios.com/">
+    <meta property="og:url" content="https://coldog5044.github.io/">
     <meta property="og:description" content="Home">
-    <meta property="og:image" content="image.png">
+    <meta property="og:image" content="assets/ColDogStudios.png">
 
     <link rel="icon" href="assets/favicon.ico">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css">
     </head>
 
     <body>
-        <div class="topnav">
+        <div class="topnav" id="topNav">
             <a class="active" href="index.html">
                 <img class="logo" src="assets/ColDogStudios.png" alt="Logo-Icon/HomePage">
             </a>
-            <div class="topnav-right">
-                <a href="projects/projects.html">Projects</a>
-                <a href="contact/contact.html">Contact</a>
-            </div>
+            <a class="rightlinks" href="projects/projects.html">Projects</a>
+            <a class="rightlinks" href="contact/contact.html">Contact</a> 
+            <a href="javascript:void(0);" class="icon" onclick="topNav()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
         
         <main>
             <div class="content">
-                <h1>ColDog Studios</h1>
                 <div id="about">
                     <h1>About</h1>
                         <h2>Founder</h2>
@@ -45,11 +46,11 @@
         </main>
 
         <div class="bottombar">
-            <p>&copy 2021 ColDog Studios. All Rights Reserved.</p>
+            <p><span>Copyright © 2021 ColDog Studios - All Rights Reserved.</span></p>
             <p>Website Under Development</p>
         </div>
               
         </div>
-        <script src="js/scripts.js"></script>
+        <script src="assets/scripts.js"></script>
     </body>
 </html>
