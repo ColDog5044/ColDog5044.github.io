@@ -5,10 +5,10 @@ function topNav() {
     } else {
         x.className = "topnav";
     }
-    var y = document.getElementById("rightLinks")
-    if (y.className === "rightlinks") {
-        y.className = "leftlinks";
+    var y = document.getElementById("topNavCenter")
+    if (y.className === "topnav-center") {
+        y.className = "";
     } else {
-        y.className = "rightlinks";
+        y.className = "topnav-center";
     }
   }

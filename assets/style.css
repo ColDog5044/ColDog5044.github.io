@@ -54,27 +54,24 @@ main {
 }
 
 .topnav {
+  position: relative;
   background-color: #444;
   overflow: hidden;
 }
 
-.topnav a.rightlinks {
-  float: right;
-}
-
 .topnav a {
   float: left;
-  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 28px 40px;
   text-decoration: none;
   font-size: 18px;
+  width: 30%;
 }
 
 .topnav a:hover {
-  background-color: #ededed;
-  color: #444;
+  background-color: #222;
+  color: #f2f2f2;
 }
 
 .topnav a.active {
@@ -82,8 +79,22 @@ main {
   color: #f2f2f2;
 }
 
+.topnav-center a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+
+.topnav .topnav-right {
+  float: right;
+}
+
 .topnav .icon {
   display: none;
+  width: auto;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -105,8 +116,23 @@ This class makes the topnav look good on small screens (display the links vertic
     top: 0;
   }
 
-  .topnav.rightlinks {
+  .topnav a, .topnav-right {
+    float: right;
+    display: block;
+  }
+
+  .topnav-center {
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+  .topnav-right {
     float: left;
+  }
+
+  .topnav a {
+    width: auto;
   }
 
   .topnav.responsive a {
@@ -125,8 +151,6 @@ This class makes the topnav look good on small screens (display the links vertic
     margin: 0% 5%;
   }
 }
-
-
 
 .bottombar {
   background-color: #333;
