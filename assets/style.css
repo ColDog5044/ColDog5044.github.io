@@ -61,7 +61,7 @@ main {
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #f0f0f0;
   text-align: center;
   padding: 28px 40px;
   text-decoration: none;
@@ -76,7 +76,7 @@ main {
 
 .topnav a.active {
   background-color: #0077a5;
-  color: #f2f2f2;
+  color: #f0f0f0;
 }
 
 .topnav-center a {
@@ -146,6 +146,20 @@ This class makes the topnav look good on small screens (display the links vertic
   background-color: #ddd;
 }
 
+.dwnldbtn {
+  background-color: #0077a5;
+  border: none;
+  color: #f0f0f0;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.dwnldbtn:hover {
+  background-color: #0060a0;
+}
+
 @media screen and (max-width: 380px) {
   main {
     margin: 0% 5%;
@@ -159,7 +173,7 @@ This class makes the topnav look good on small screens (display the links vertic
 
 .bottombar p {
   display: block;
-  color: #f2f2f2;
+  color: #f0f0f0;
   text-align: center;
   padding: 80px;
   text-decoration: none;
