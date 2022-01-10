@@ -54,6 +54,10 @@ main {
   }
 }
 
+.center {
+  text-align: center;
+}
+
 .topnav {
   position: relative;
   background-color: #444;
