@@ -1,0 +1,12 @@
+.warn {
+    color: rgb(200, 0, 0);
+}
+
+#warning {
+    padding-bottom: 500px;
+}
+
+video {
+    height: 480px;
+    width: 854px;
+}
