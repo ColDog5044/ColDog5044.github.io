@@ -1,0 +1,12 @@
+.dwnldbtn {
+    background-color: #0077a5;
+    border: none;
+    color: #f0f0f0;
+    padding: 18px 26px;
+    cursor: pointer;
+    font-size: 20px;
+}
+  
+.dwnldbtn:hover {
+    background-color: #0060a0;
+}  
