@@ -1,9 +1,15 @@
 title: Collin Laney
 description: The Resume of Collin Laney.
+repository: ColDog5044/ColDog5044.github.io
+author: Collin Laney
+twitter_handle: ColDog5044
+
 show_downloads: false
 #google_analytics:
+
 theme: jekyll-theme-modernist
 remote_theme: pages-themes/modernist@v0.2.0
+
 plugins:
 - jekyll-remote-theme
 - jekyll-feed
