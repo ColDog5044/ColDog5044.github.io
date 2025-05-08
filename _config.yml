@@ -14,19 +14,19 @@ timezone: America/Detroit
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: ColDog Studios Blog # the main title
+title: Collin Laney # the main title
 
 tagline: Homelab Experiments | Setups | Configuration # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  ColDog Studios - Blog - Homelab Experiments | Setups | Configuration | Documentation.
+  Collin Laney - Homelab Experiments | Setups | Configuration | Documentation.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://blog.coldogstudios.com"
+url: "https://collinlaney.me"
 
 github:
-  username: ColDog-Studios # change to your GitHub username
+  username: ColDog5044 # change to your GitHub username
 twitter:
   username: ColDog5044 # change to your Twitter username
 
@@ -37,9 +37,9 @@ social:
   #email: # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/username
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://www.linkedin.com/in/collin-laney
+    - https://twitter.com/ColDog5044 # change to your Twitter homepage
+    - https://github.com/ColDog5044 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
