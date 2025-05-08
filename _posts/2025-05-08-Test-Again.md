@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test Post"
-date: 2025-05-07 19:20:00 -0600
+date: 2025-05-07 19:20:00 -0400
 categories: [Test, Testing]
 tags: [test] # TAG names should always be lowercase
 ---
