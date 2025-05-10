@@ -47,6 +47,6 @@ tags: [homelab, windows-server, active-directory,domain-controller, sysadmin, ne
 
 ## Resources
 
-  - Windows Server 2025 Evaluation <https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025>
-  - Windows Server 2022 Evaluation <https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022>
-  - Windows Server 2019 Evaluation <https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019>
+  - Windows Server 2025 Evaluation: <https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025>
+  - Windows Server 2022 Evaluation: <https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022>
+  - Windows Server 2019 Evaluation: <https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019>
