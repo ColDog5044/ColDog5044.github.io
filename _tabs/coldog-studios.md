@@ -1,6 +1,6 @@
 ---
 layout: redirect
-icon: fas fa-bag-shopping
+icon: fas fa-building
 redirect: https://www.coldogstudios.com
 order: 5
 ---
