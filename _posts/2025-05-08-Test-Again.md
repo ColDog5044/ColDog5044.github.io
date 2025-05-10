@@ -2,8 +2,8 @@
 layout: post
 title: "Test Post"
 date: 2025-05-08 19:20:00 -0400
-categories: [Test, Testing]
-tags: [test] # TAG names should always be lowercase
+categories: [Test, Again Testing, Really Testing]
+tags: [test, testing]
 ---
 
 ## This is a test post
