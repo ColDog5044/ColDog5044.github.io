@@ -22,18 +22,31 @@ tags: [homelab, windows-server, active-directory,domain-controller, sysadmin, ne
 1. Click **Promote this server to a domain controller**.
 2. Select **Add a new forest** and enter your desired domain.
 
-   > **Warning:**  
-   > It is not recommended to use a `.local` domain for several reasons. Microsoft recommends using a fully-qualified domain name (FQDN) such as `coldogstudios.com`. However, if your domain has an internet presence, use a subdomain such as `ad.coldogstudios.com` to prevent DNS issues.
-   {: .prompt-warning }
+> **Warning:**  
+> It is not recommended to use a `.local` domain for several reasons. Microsoft recommends using a fully-qualified domain name (FQDN) such as `coldogstudios.com`. However, if your domain has an internet presence, use a subdomain such as `ad.coldogstudios.com` to prevent DNS issues.
+{: .prompt-warning }
 
-3. Enter a strong password for the **Directory Services Restore Mode (DSRM)**. Ensure you store it in a safe place in case you need to restore the domain.
+3. Enter a strong password for the **Directory Services Restore Mode (DSRM)**. Ensure you document and store it in a safe place.
+
+> **Note:**  
+> Directory Services Restore Mode (DSRM) Password The DSRM password is a critical credential used for offline maintenance and disaster recovery of Active Directory Domain Controllers. It allows administrators to boot into safe mode, perform repairs, restore backups, and troubleshoot issues without relying on domain authentication. Since it's a security-sensitive account, it's recommended to store it securely and update it periodically to prevent unauthorized access.
+{: .prompt-info }
+
 4. Skip **DNS delegation** unless you have specific DNS requirements.
-5. Enter your desired **NetBIOS name**.  
-   - If using a subdomain (e.g., `ad.coldogstudios.com`) and you want your actual domain name (`coldogstudios.com`) to show, enter `COLDOGSTUDIOS`.
-6. You can change the default paths for the AD DS database, log files, and SYSVOL.  
-   - If you change these paths, document them carefully, as most online resources reference the default paths.
+5. Enter your desired **NetBIOS name**.
+
+> **Note:**  
+> If using a subdomain (e.g., `ad.coldogstudios.com`) and you want your actual domain name (`coldogstudios.com`) to show, enter `COLDOGSTUDIOS`.
+{: .prompt-info }
+
+6. You can change the default paths for the AD DS database, log files, and SYSVOL.
+
+> **Warning:**  
+> If you change these paths, document them carefully, as most online resources reference the default paths.
+{: .prompt-warning }
+
 7. After the prerequisites have been checked, click **Install** to promote the server to a domain controller.
 
 ## Resources
 
-  - Microsoft Domain Naming Conventions: <https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/naming-conventions-for-computer-domain-site-ou#domain-names>
+- Microsoft Domain Naming Conventions: <https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/naming-conventions-for-computer-domain-site-ou#domain-names>
