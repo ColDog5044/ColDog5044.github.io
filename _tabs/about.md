@@ -4,17 +4,18 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-### Hi! 
-My name is Collin Laney, and I am the founder and CEO of ColDog Studios.
+![Hero image](/assets/img/posts/coldog-github-profile.webp)
 
-[ColDog Studios Website](https://www.coldogstudios.com) | [ColDog Studios GitHub](https://github.com/ColDogStudios)
+[![YouTube Subscribers](https://img.shields.io/youtube/channel/subscribers/UCOk-gHyjcWZNj3Br4oxwh0A?logo=youtube&logoColor=E05D44&style=for-the-badge&label=YouTube)](https://) 
+[![Twitter Followers](https://img.shields.io/badge/follow-%40coldog5044-1DA1F2?logo=twitter&style=for-the-badge)](https://x.com/ColDog5044)
+[![GitHub followers](https://img.shields.io/github/followers/coldog5044?logo=GitHub&style=for-the-badge)](https://github.com/ColDog5044)
 
+# 👋 Hi!
 
-| <a href="https://github.com/ColDog5044"><img align="center" src="https://github-readme-stats.vercel.app/api?username=ColDog5044&show_icons=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github&theme=nord&hide_border=true" alt="Collin Laney's github stats" /></a> | <a href="https://github.com/ColDog5044"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ColDog5044&layout=compact&langs_count=10&theme=nord&hide_border=true" /></a> |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+I'm Collin Laney (ColDog5044), 
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=ColDog5044&theme=nord&hide_border=true)](https://github.com/ColDog5044)
+## Contact
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ColDog5044&theme=nord&no-frame=true)](https://github.com/ColDog5044)
+If you'd like to connect with me please see my list of [social links here](https://)!
 
 ![Profile-Visits](https://profile-counter.glitch.me/ColDog5044/count.svg)
