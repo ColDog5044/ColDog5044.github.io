@@ -57,6 +57,23 @@ jobs:
       #      \-\-allow-missing-href \
       #      \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
+      # Add security headers to built site
+      - name: Add security headers
+        run: |
+          cat > _site/_headers << 'EOF'
+          /*
+            X-Frame-Options: DENY
+            X-Content-Type-Options: nosniff
+            X-XSS-Protection: 1; mode=block
+            Referrer-Policy: strict-origin-when-cross-origin
+            Cache-Control: no-cache, no-store, must-revalidate
+            Pragma: no-cache
+            Expires: 0
+
+          /assets/*
+            Cache-Control: public, max-age=86400
+          EOF
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
