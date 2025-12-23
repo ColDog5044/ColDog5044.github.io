@@ -3,8 +3,24 @@ layout: post
 title: "How to Setup Domain Controllers on Windows Server 2025 - Part 2"
 date: 2025-05-10 12:00:00 -0400
 categories: [Windows Server, Active Directory]
-tags: [homelab, windows-server, active-directory,domain-controller, sysadmin, networking]
+tags: [homelab, windows-server, active-directory, domain-controller, sysadmin, networking]
 ---
+
+## Prerequisites
+
+Before proceeding with this guide, ensure you have completed the following:
+
+> **Required:**  
+> Complete [Part 1: How to Setup Domain Controllers on Windows Server 2025](How-to-Setup-Domain-Controllers-Pt1.md) which covers:
+> - Windows Server 2025 installation
+> - Administrator password configuration
+> - Timezone and network settings (static IP address)
+> - Server renamed with appropriate naming convention
+> - All drivers installed
+> - Windows updates applied
+{: .prompt-info }
+
+Your server should now be fully configured and ready to be promoted to a domain controller.
 
 ## Install the Active Directory Domain Services Role
 
