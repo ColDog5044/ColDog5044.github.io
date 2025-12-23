@@ -3,7 +3,7 @@ layout: post
 title: "How to Setup Domain Controllers on Windows Server 2025 - Part 1"
 date: 2025-05-10 10:30:00 -0400
 categories: [Windows Server, Active Directory]
-tags: [homelab, windows-server, active-directory,domain-controller, sysadmin, networking]
+tags: [homelab, windows-server, active-directory, domain-controller, sysadmin, networking]
 ---
 
 ## Install Windows Server
