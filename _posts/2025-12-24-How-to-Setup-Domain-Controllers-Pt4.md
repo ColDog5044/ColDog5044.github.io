@@ -8,7 +8,7 @@ tags: [homelab, windows-server, active-directory, domain-controller, sysadmin, n
 
 ## Introduction
 
-In this fourth part of the Domain Controller series, we'll configure a Read-Only Domain Controller (RODC) using Windows Server Core. Server Core provides a minimal installation with no graphical user interface, reducing the attack surface and resource requirements. Combined with an RODC, this makes an ideal configuration for branch offices or remote locations with limited physical security.
+In this fourth part of my Domain Controller series, we'll configure a Read-Only Domain Controller (RODC) using Windows Server Core. Server Core provides a minimal installation with no graphical user interface, reducing the attack surface and resource requirements. Combined with an RODC, this makes an ideal configuration for branch offices or remote locations with limited physical security.
 
 **Why This Matters for Your Homelab:**
 

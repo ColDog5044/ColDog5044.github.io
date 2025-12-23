@@ -10,7 +10,7 @@ tags: [homelab, windows-server, active-directory, domain-controller, sysadmin, n
 
 Setting up an Active Directory Domain Controller is a foundational skill for any Windows system administrator. Whether you're building a homelab to learn enterprise technologies or deploying a production environment, understanding how to properly install and configure Windows Server is essential.
 
-This is Part 1 of our comprehensive Domain Controller series, focusing on the initial installation and configuration of Windows Server 2025. We'll walk through every step from creating installation media to preparing the server for Active Directory promotion.
+This is Part 1 of my comprehensive Domain Controller series, focusing on the initial installation and configuration of Windows Server 2025. We'll walk through every step from creating installation media to preparing the server for Active Directory promotion.
 
 **Why This Matters for Your Homelab:**
 
@@ -446,7 +446,7 @@ By completing this guide, you've gained:
 
 ### What's Next
 
-Your server is now ready for Active Directory Domain Services installation. In [Part 2]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt2 %}), we'll:
+Your server is now ready for Active Directory Domain Services installation. In [Part 2]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt2 %}), I'll show you how to:
 - Install the Active Directory Domain Services role
 - Promote the server to a domain controller
 - Create your first Active Directory forest and domain

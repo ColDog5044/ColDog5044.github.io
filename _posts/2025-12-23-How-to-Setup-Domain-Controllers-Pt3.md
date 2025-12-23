@@ -27,7 +27,7 @@ With only one domain controller:
 - All AD-dependent services become unavailable
 - File shares requiring domain authentication are inaccessible
 
-In this third part of the Domain Controller series, we'll solve this problem by adding a secondary (replica) domain controller to your existing Active Directory forest. This provides redundancy, load balancing, and improved fault tolerance for your Active Directory environment.
+In this third part of my Domain Controller series, we'll solve this problem by adding a secondary (replica) domain controller to your existing Active Directory forest. This provides redundancy, load balancing, and improved fault tolerance for your Active Directory environment.
 
 > **Prerequisites:**  
 > Before proceeding, ensure you have completed [Part 1]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt1 %}) and [Part 2]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt2 %}) to set up your primary domain controller.
