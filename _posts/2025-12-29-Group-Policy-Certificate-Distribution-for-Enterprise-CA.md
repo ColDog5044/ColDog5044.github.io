@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Group Policy to Distribute Enterprise CA Certificates"
-date: 2025-12-26 08:00:00 -0500
+date: 2025-12-29 08:00:00 -0500
 categories: [Windows Server, Active Directory]
 tags: [homelab, windows-server, active-directory, pki, certificate-authority, group-policy, gpo, ssl, tls, security, sysadmin]
 ---

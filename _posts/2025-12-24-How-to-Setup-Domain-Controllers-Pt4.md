@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Setup Domain Controllers on Windows Server 2025 - Part 4"
-date: 2025-12-23 11:00:00 -0500
+date: 2025-12-24 08:00:00 -0500
 categories: [Windows Server, Active Directory]
 tags: [homelab, windows-server, active-directory, domain-controller, sysadmin, networking, rodc, server-core, powershell]
 ---
