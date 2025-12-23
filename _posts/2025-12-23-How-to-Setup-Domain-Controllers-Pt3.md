@@ -11,7 +11,7 @@ tags: [homelab, windows-server, active-directory, domain-controller, sysadmin, n
 In this third part of the Domain Controller series, we'll cover how to add a secondary (replica) domain controller to your existing Active Directory forest. Adding additional domain controllers provides redundancy, load balancing, and improved fault tolerance for your Active Directory environment.
 
 > **Prerequisites:**  
-> Before proceeding, ensure you have completed [Part 1](How-to-Setup-Domain-Controllers-Pt1.md) and [Part 2](How-to-Setup-Domain-Controllers-Pt2.md) to set up your primary domain controller.
+> Before proceeding, ensure you have completed [Part 1]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt1 %}) and [Part 2]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt2 %}) to set up your primary domain controller.
 {: .prompt-info }
 
 ## Benefits of Multiple Domain Controllers
@@ -26,7 +26,7 @@ In this third part of the Domain Controller series, we'll cover how to add a sec
 
 ### Install Windows Server
 
-Follow the same steps from [Part 1](How-to-Setup-Domain-Controllers-Pt1.md) to install Windows Server 2025 on your second server:
+Follow the same steps from [Part 1]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt1 %}) to install Windows Server 2025 on your second server:
 
 1. Download and install Windows Server 2025
 2. Set a strong Administrator password

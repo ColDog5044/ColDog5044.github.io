@@ -14,7 +14,7 @@ This guide shows you how to use Group Policy to automatically distribute your CA
 
 > **Prerequisites:**  
 > - A functioning Active Directory domain
-> - An Enterprise CA configured (see [Enterprise CA and LDAPS guide](2025-12-24-How-to-Configure-Enterprise-CA-and-Deploy-LDAPS.md))
+> - An Enterprise CA configured (see [Enterprise CA and LDAPS guide]({% post_url 2025-12-24-How-to-Configure-Enterprise-CA-and-Deploy-LDAPS %}))
 > - Domain Administrator credentials
 > - Group Policy Management Console (GPMC)
 {: .prompt-info }

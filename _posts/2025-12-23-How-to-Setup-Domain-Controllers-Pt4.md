@@ -22,7 +22,7 @@ These skills directly translate to enterprise environments where Server Core ROD
 
 > **Prerequisites:**  
 > - A functioning Active Directory domain with at least one writable domain controller
-> - Completed [Part 1](How-to-Setup-Domain-Controllers-Pt1.md), [Part 2](How-to-Setup-Domain-Controllers-Pt2.md), and [Part 3](How-to-Setup-Domain-Controllers-Pt3.md)
+> - Completed [Part 1]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt1 %}), [Part 2]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt2 %}), and [Part 3]({% post_url 2025-12-23-How-to-Setup-Domain-Controllers-Pt3 %})
 > - Domain Administrator credentials
 > - Windows Server installation media
 {: .prompt-info }
@@ -224,9 +224,9 @@ Pre-staging an RODC account allows you to delegate the RODC installation to non-
 6. **Computer Name**: Enter `ORG-RODC1`.
 7. **Site**: Select the appropriate site or use **Default-First-Site-Name**.
 8. **Additional Domain Controller Options**:
-   - ☑ **DNS server**
-   - ☑ **Global catalog**
-   - ☑ **Read-only domain controller (RODC)**
+   - [x] **DNS server**
+   - [x] **Global catalog**
+   - [x] **Read-only domain controller (RODC)**
 9. **Delegation of RODC Installation**: Optionally specify a user or group that can attach the server to this account.
 10. **Password Replication Policy**:
     - **Allowed**: Add security groups whose credentials can be cached (e.g., branch office users)

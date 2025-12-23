@@ -11,7 +11,7 @@ tags: [homelab, windows-server, active-directory, domain-controller, sysadmin, n
 Before proceeding with this guide, ensure you have completed the following:
 
 > **Required:**  
-> Complete [Part 1: How to Setup Domain Controllers on Windows Server 2025](How-to-Setup-Domain-Controllers-Pt1.md) which covers:
+> Complete [Part 1: How to Setup Domain Controllers on Windows Server 2025]({% post_url 2025-05-10-How-to-Setup-Domain-Controllers-Pt1 %}) which covers:
 > - Windows Server 2025 installation
 > - Administrator password configuration
 > - Timezone and network settings (static IP address)
