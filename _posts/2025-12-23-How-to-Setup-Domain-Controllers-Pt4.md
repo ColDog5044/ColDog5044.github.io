@@ -60,7 +60,7 @@ Windows Server Core offers several advantages:
 
 > **Important:**  
 > Make sure to select the edition **without** "Desktop Experience" to get Server Core.
-{: .prompt-important }
+{: .prompt-tip }
 
 5. Accept the license terms.
 6. Select **Custom: Install Windows only (advanced)**.
