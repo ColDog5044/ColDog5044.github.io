@@ -323,7 +323,7 @@ With two writable domain controllers, you have:
 
 **Going Further:**
 
-- **[Part 4]({% post_url 2025-12-23-How-to-Setup-Domain-Controllers-Pt4 %})**: Deploy a Read-Only Domain Controller on Server Core (Advanced)
+- **[Part 4]({% post_url 2025-12-24-How-to-Setup-Domain-Controllers-Pt4 %})**: Deploy a Read-Only Domain Controller on Server Core (Advanced)
   - Learn command-line server administration
   - Understand RODCs for branch offices or DMZ scenarios
   - Reduce resource usage with Server Core
