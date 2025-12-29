@@ -885,7 +885,7 @@ By completing this guide, you've gained:
 Your Active Directory infrastructure is now complete with domain controllers, organized OUs, and automated policy management. Consider these next steps:
 
 **Infrastructure Enhancements:**
-- **Certificate Services**: Set up Enterprise CA for internal certificates (already covered in our [Enterprise CA guide]({% post_url 2025-12-24-How-to-Configure-Enterprise-CA-and-Deploy-LDAPS %}))
+- **Certificate Services**: Set up Enterprise CA for internal certificates (already covered in our [Enterprise CA guide]({% post_url 2025-12-28-How-to-Configure-Enterprise-CA-and-Deploy-LDAPS %}))
 - **DHCP Server**: Centralized IP address management
 - **DNS Zones**: Advanced DNS configurations
 - **DFS Namespaces**: Unified file share structure
