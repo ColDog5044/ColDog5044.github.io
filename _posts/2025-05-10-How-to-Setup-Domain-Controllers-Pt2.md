@@ -577,7 +577,7 @@ In enterprise environments, this is unacceptable. Even in a homelab, having a se
 **Immediate Next Steps:**
 
 - **[Part 3]({% post_url 2025-12-23-How-to-Setup-Domain-Controllers-Pt3 %})**: Add a secondary domain controller for redundancy **(Highly Recommended)**
-- **[Part 4]({% post_url 2025-12-23-How-to-Setup-Domain-Controllers-Pt4 %})**: Deploy a Read-Only Domain Controller on Server Core (Advanced)
+- **[Part 4]({% post_url 2025-12-24-How-to-Setup-Domain-Controllers-Pt4 %})**: Deploy a Read-Only Domain Controller on Server Core (Advanced)
 
 **Additional Infrastructure Tasks:**
 
